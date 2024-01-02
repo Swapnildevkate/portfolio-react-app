@@ -14,7 +14,7 @@ export default function About() {
             </p>
           </div>
 
-          <p className="text-xl mt-20">
+          <p className="text-xl mt-20 text-justify ">
             Greetings! I am a dedicated Information Technology (IT) student at
             PES Modern College of Engineering in Pune. My journey in the realm
             of technology began with a Diploma in Computer Engineering from
