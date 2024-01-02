@@ -34,8 +34,8 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div>
-        <img src={logo} alt='' className="w-1/4 pl-4"/>
+      <div className=" ">
+        <img src={logo} alt='' className="w-1/4 pl-4 "/>
       </div>
 
       <ul className="hidden md:flex">
