@@ -12,23 +12,23 @@ export default function Navbar() {
   const links = [
     {
       id: 1,
-      link: "HOME",
+      link: "Home",
     },
     {
       id: 2,
-      link: "ABOUT",
+      link: "About",
     },
     {
       id: 3,
-      link: "PROJECTS",
+      link: "Projects",
     },
     {
       id: 4,
-      link: "EXPERIENCE",
+      link: "Experience",
     },
     {
       id: 5,
-      link: "CONTACT",
+      link: "Contact",
     },
   ];
 
