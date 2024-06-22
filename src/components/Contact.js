@@ -19,7 +19,7 @@ export default function Contact() {
     <div name="Contact" className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white pt-20">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-700 text-white">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-300 text-white">
             Contact
           </p>
           <p className="py-6 text-gray-100">Submit the form below to get in touch with me</p>
@@ -38,7 +38,7 @@ export default function Contact() {
               placeholder="Enter your name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none border-gray-400"
+              className="p-2 bg-transparent border-2 rounded-md  text-white focus:outline-none border-gray-200 font-medium"
             />
             <input
               type="email"
@@ -46,7 +46,7 @@ export default function Contact() {
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none border-gray-400"
+              className="my-4 p-2 bg-transparent border-2 rounded-md  text-white font-medium focus:outline-none border-gray-200"
             />
             <textarea
               name="message"
@@ -54,7 +54,7 @@ export default function Contact() {
               rows="10"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none border-gray-400"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none border-gray-200 font-medium"
             ></textarea>
 
             <button className="text-black text-xl font-medium bg-gradient-to- bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 cursor-pointer px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
