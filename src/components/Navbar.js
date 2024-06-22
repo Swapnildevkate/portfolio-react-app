@@ -12,31 +12,31 @@ export default function Navbar() {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "HOME",
     },
     {
       id: 2,
-      link: "about",
+      link: "ABOUT",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "PROJECTS",
     },
     {
       id: 4,
-      link: "experience",
+      link: "EXPERIENCE",
     },
     {
       id: 5,
-      link: "contact",
+      link: "CONTACT",
     },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div className=" ">
-        <img src={logo} alt='' className="w-1/4 pl-4 "/>
-      </div>
+    
+        <img src={logo} alt='' className="lg:w-1/5 lg:pl-4  w-2/5"/>
+   
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
