@@ -16,9 +16,9 @@ export default function Contact() {
   };
 
   return (
-    <div name="Contact" className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white pt-20">
+    <div name="Contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-20">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className="">
           <p className="text-4xl font-bold inline border-b-4 border-gray-300 text-white">
             Contact
           </p>

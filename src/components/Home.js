@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import "../index.css";
 import Typing from "./Typing";
-import smoke from "../assets/smoke.mp4"; // Ensure the correct path to your video file
+import smoke from "../assets/smoke.webm"; // Ensure the correct path to your video file
 
 const Home = () => {
   return (
