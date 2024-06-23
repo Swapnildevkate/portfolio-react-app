@@ -17,17 +17,16 @@ export default function About() {
           <p className="text-xl mt-20 text-justify ">
             Greetings! I am a dedicated Information Technology (IT) student at
             PES Modern College of Engineering in Pune. My journey in the realm
-            of technology began with a Diploma in Computer Engineering from
+            of technology began with a <span className='text-green-500'>Diploma in Computer Engineering </span>from
             Government Polytechnic Osmanabad. During my academic pursuit, I have
             developed a keen interest in the dynamic world of web development.
           </p>
 
           <br />
 
-          <p className="text-xl">
+          <p className="text-xl ">
             Recently, I had the opportunity to apply my skills in a real-world
-            setting through a web development internship at Oasis Infobyte. This
-            experience not only honed my technical abilities but also fueled my
+            setting through a web development Internship at <span className='text-green-500'> Adallect product and services. </span> This experience not only honed my technical abilities but also fueled my
             passion for creating innovative and user-friendly web solutions.
           </p>
         </div>

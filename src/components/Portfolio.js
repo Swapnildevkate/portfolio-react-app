@@ -6,15 +6,16 @@ import masterai from '../assets/portfolio/masterai.jpg';
 
 const Portfolio = () => {
   const portfolios = [
+    
     {
       id: 1,
-      src: masterai,
-      demo: "",
+      src: cheapkart,
+      demo: "https://swapnildevkate.github.io/CheapKart/",
     },
     {
       id: 2,
-      src: cheapkart,
-      demo: "https://swapnildevkate.github.io/CheapKart/",
+      src: masterai,
+      demo: "",
     },
     {
       id: 3,
