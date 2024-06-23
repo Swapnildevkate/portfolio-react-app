@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
-      alert('All fields are required!');
+      alert("All fields are required!");
       return;
     }
     // If all fields are filled, submit the form
@@ -16,13 +18,36 @@ export default function Contact() {
   };
 
   return (
-    <div name="Contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-28 ">
+    <div
+      name="Contact"
+      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-28 "
+    >
+      <div className="flex flex-row justify-center gap-8  ">
+        <div className="hover:text-blue-400 duration-300">
+          <a href="https://linkedin.com/in/swapnil-devkate-427116235">
+            <FaLinkedin size={30} />
+          </a>
+        </div>
+        <div className="hover:text-slate-500 duration-300">
+          <a href="https://github.com/Swapnildevkate">
+            <FaGithub size={30} />
+          </a>
+        </div>
+        <div className="hover:text-red-500 duration-300">
+          <a href="mailto:swapnildevkate8@gmail.com">
+            <HiOutlineMail size={30} />
+          </a>
+        </div>
+      </div>
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="">
           <p className="text-4xl font-bold inline border-b-4 border-gray-300 text-white">
             Contact
           </p>
-          <p className="py-6 text-gray-100">Submit the form below to get in touch with me</p>
+
+          <p className="py-6 text-gray-100">
+            Submit the form below to get in touch with me
+          </p>
         </div>
 
         <div className="flex justify-center items-center">
